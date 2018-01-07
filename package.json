@@ -1,0 +1,19 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Training css with a landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "sass --watch sass/main.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleyramalho/natours-udemy.git"
+  },
+  "author": "Wesley Ramalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleyramalho/natours-udemy/issues"
+  },
+  "homepage": "https://github.com/wesleyramalho/natours-udemy#readme"
+}
