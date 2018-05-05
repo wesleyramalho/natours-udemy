@@ -1,17 +1,17 @@
 Arguments: 
-  /usr/local/Cellar/node/9.8.0/bin/node /usr/local/bin/yarn compile:sass
+  C:\Program Files\nodejs\node.exe C:\Users\Antonia\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js compile:sass
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Antonia\AppData\Local\Microsoft\WindowsApps;C:\Users\Antonia\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  9.8.0
+  8.10.0
 
 Platform: 
-  darwin x64
+  win32 x64
 
 npm manifest: 
   {
@@ -1027,15 +1027,16 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 64
-  Command: sh
-  Arguments: -c sass --watch sass/main.scss:css/style.css
-  Directory: /Users/wesleyramalho/Desktop/Projects/personal-projects/natours-udemy
+  Exit code: 1
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c sass --watch sass/main.scss:css/style.css
+  Directory: C:\Users\Antonia\Desktop\natours-udemy
   Output:
   
-      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
-      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
-      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30281:17)
-      at ChildProcess.emit (events.js:180:13)
-      at maybeClose (internal/child_process.js:936:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+      at ProcessTermError.MessageError (C:\Users\Antonia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Users\Antonia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Users\Antonia\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
