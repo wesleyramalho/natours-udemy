@@ -2,7 +2,7 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Users\Antonia\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js compile:sass
 
 PATH: 
-  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Antonia\AppData\Local\Microsoft\WindowsApps;C:\Users\Antonia\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Ruby24-x64\bin;C:\Users\Antonia\AppData\Local\Microsoft\WindowsApps;C:\Users\Antonia\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin
 
 Yarn version: 
   1.5.1
@@ -1027,7 +1027,7 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit code: 3221225786
   Command: C:\WINDOWS\system32\cmd.exe
   Arguments: /d /s /c sass --watch sass/main.scss:css/style.css
   Directory: C:\Users\Antonia\Desktop\natours-udemy
