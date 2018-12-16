@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/wesleyramalho/natours-udemy#readme",
   "dependencies": {
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.1"
   }
 }
