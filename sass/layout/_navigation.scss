@@ -71,12 +71,10 @@
     list-style: none;
     text-align: center;
     width: 100%;
-    // pointer-events: none;
   }
 
   &__item, a {
     margin: 1rem;
-    // pointer-events: none;
   }
 
   &__link {
@@ -152,11 +150,11 @@
     }
   }
 
-  &__button:hover &__icon:before {
+  &__icon:before {
     top: -1rem;
   }
 
-  &__button:hover &__icon:after {
+  &__icon:after {
     top: 1rem;
   }
 
