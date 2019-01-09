@@ -46,6 +46,9 @@ $breakpoint argument choices:
 
 html {
   font-size: 62.5%; }
+  @supports (scroll-behavior: smooth) {
+    html {
+      scroll-behavior: smooth; } }
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -83,10 +86,14 @@ body {
     animation-timing-function: ease-out;
     /*animation-iteration-count: 3;*/
     /*animation-delay: 3s;*/ }
+    @media (max-width: 320px) {
+      .heading-primary--main {
+        font-size: 4.5rem !important;
+        letter-spacing: 1rem; } }
     @media (max-width: 37.5em) {
       .heading-primary--main {
         letter-spacing: 1rem;
-        font-family: .5rem; } }
+        font-size: 5rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;

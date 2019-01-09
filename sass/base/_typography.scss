@@ -23,9 +23,17 @@ body {
         animation-duration: 1s;
         animation-timing-function: ease-out;
 
+       
+                  
+        //Iphone 5/SE
+        @media (max-width: 320px) {
+          font-size: 4.5rem !important;
+          letter-spacing: 1rem;
+        }
+
         @include respond(phone) {
             letter-spacing: 1rem;
-            font-family: .5rem;
+            font-size: 5rem;
         }
         /*animation-iteration-count: 3;*/
         /*animation-delay: 3s;*/
